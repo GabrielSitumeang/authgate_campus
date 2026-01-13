@@ -1,3 +1,15 @@
+## Editions
+
+### Community Edition (Free)
+For evaluation, learning, and small demos.
+❗ This edition does NOT include:
+- Refresh Token
+- Logout Invalidation
+- Advanced Authorization
+
+📩 Contact: your@email.com
+
+
 # 🚀 AuthGate Campus
 
 **AuthGate Campus** adalah *Starter Kit Autentikasi dan Otorisasi* berbasis **Spring Boot dan JSON Web Token (JWT)**  
