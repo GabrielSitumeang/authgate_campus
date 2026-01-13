@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: authgate
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authgate_db
+    username: xxxxxxxx
+    password: xxxxxxxx
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+jwt:
+  secret: authgate-campus-secret-key-very-long-and-secure
+  access-token-expiration: 900000      # 15 menit (ms)
+  refresh-token-expiration: 604800000  # 7 hari (ms)
